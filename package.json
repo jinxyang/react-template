@@ -1,0 +1,48 @@
+{
+  "name": "react-cli-template",
+  "version": "0.0.1",
+  "description": "template for react-cli",
+  "private": true,
+  "scripts": {
+    "start": "react-cli dev",
+    "build": "react-cli build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinxyang/react-cli-template.git"
+  },
+  "keywords": [
+    "react-cli"
+  ],
+  "author": "Jinxyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jinxyang/react-cli-template/issues"
+  },
+  "homepage": "https://github.com/jinxyang/react-cli-template#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/eslint-parser": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "2.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-prettier": "^1.2.0"
+  }
+}
