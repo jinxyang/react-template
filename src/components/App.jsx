@@ -26,7 +26,7 @@ const App = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Document
+          Document1
         </a>
       </h1>
     </StyledApp>
