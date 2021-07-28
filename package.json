@@ -8,7 +8,7 @@
     "start": "react-cli dev",
     "build": "react-cli build",
     "lint": "npm run lint:js && npm run lint:css && npm run format",
-    "lint:js": "eslint src --ext .js,.jsx --fix",
+    "lint:js": "eslint --ext .js,.jsx --fix",
     "lint:css": "stylelint \"src/**/*.{js(x),css,scss,less}\" --fix",
     "format": "prettier src --write --loglevel error",
     "commit": "cz",
