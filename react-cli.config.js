@@ -1,5 +1,5 @@
 module.exports = {
-  port: 4000,
+  port: 5469,
   proxy: [],
   splitChunks: {
     cacheGroups: {
@@ -7,11 +7,6 @@ module.exports = {
         name: 'react',
         priority: 10,
         test: /[\\/]node_modules[\\/](react|react-dom|react-router-dom)[\\/]/,
-      },
-      antd: {
-        name: 'antd',
-        priority: 10,
-        test: /[\\/]node_modules[\\/](antd|@antd-)/,
       },
     },
   },

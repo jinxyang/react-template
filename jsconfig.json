@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
-    "paths": { "*": ["*"] }
+    "baseUrl": ".",
+    "paths": {
+      "@jinxyang/react-lib": ["./packages/react-lib/src"],
+      "*": ["./src/*"]
+    }
   }
 }

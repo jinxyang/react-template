@@ -6,8 +6,8 @@ import Logo from 'assets/logo.jpg'
 const StyledApp = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
 `
@@ -26,7 +26,7 @@ const App = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Document1
+          Document
         </a>
       </h1>
     </StyledApp>
