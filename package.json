@@ -1,6 +1,6 @@
 {
   "name": "react-template",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "template for react-cli",
   "private": true,
   "scripts": {
